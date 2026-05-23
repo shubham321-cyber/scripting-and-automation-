@@ -1,9 +1,0 @@
-Volumes are used for Data Safety. Even if you delete a container, your files (like database or photos) stay safe on your AWS hard drive.
-
-docker volume create my_data: Creates a new permanent "storage box" named my_data.
-
-docker volume ls: Shows a list of all your created storage boxes.
-
-docker volume inspect my_data: Shows exactly where on your AWS server the data is hidden.
-
-docker volume rm my_data: Deletes the storage box (Use only if you don't need the data anymore).
