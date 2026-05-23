@@ -1,9 +1,0 @@
-docker network create mynetwork -d bridge: This command creates your own private network for a project.
-
-docker build -t two-tier-backend .: This command is used to create a Docker image from a Dockerfile.
-
-docker network ls: Used to see the list of all networks (Bridge, Host, None).
-
-docker network inspect <network_name>: To see the inside details of a network, like which containers are connected.
-
-docker exec -it <container_id> bash: This command lets you enter inside a running container to check files or run commands.
