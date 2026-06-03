@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Variables
+STUDENT="shubham"
+TEACHER="madhavrao"
+
+# Print details
+echo "My name is $STUDENT, my teacher is $TEACHER."
+
+# System details
+DATE=$(date)
+MYUSER=$(whoami)
+echo "Today is $DATE, and I am logged in as $MYUSER."
+
+# Interaction
+echo "What is your favourite model?"
+read MY_MODEL
+
+# Output
+echo "Hii $STUDENT, your role model is $MY_MODEL."
